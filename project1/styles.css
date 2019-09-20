@@ -1,5 +1,7 @@
 body {
     background-color: lightgrey;
+    margin: 26px auto;
+    max-width: 800px;
 }
 
 h1 {
@@ -12,13 +14,6 @@ h1 {
     letter-spacing: 4px;
     font-family: 'Merriweather', serif;
     font-weight: 700;
-}
-
-cite {
-    font-size: 20px;
-    display: block;
-    text-align: center;
-    font-family: 'Merriweather', serif;
 }
 
 h2 {
@@ -39,17 +34,23 @@ blockquote {
 
 p {
     font-size: 18px;
-    margin: 26px auto;
     line-height: 26px;
-    max-width: 800px;
     font-family: 'Merriweather', serif;
 }
 
 /* try to make it look like google news*/
-div {
+
+.author {
+    font-size: 20px;
+    display: block;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-span {
+.product-name {
     text-transform: uppercase;
+}
+
+.separator {
+    text-align: center
 }
