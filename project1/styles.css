@@ -5,14 +5,19 @@ body {
 }
 
 h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif;
     font-size: 40px;
     font-style: oblique;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
 h2 {
+    font-family: 'Merriweather', serif;
     font-size: 20px;
     text-align: center;
 }
@@ -21,16 +26,28 @@ blockquote {
     color: grey;
     font-family: 'Merriweather', serif;
     font-style: italic;
+    font-size: 18px;
+    margin: 26px auto;
+    max-width: 800px;
+    line-height: 26px;
 }
 
 p {
+    font-family: 'Merriweather', serif;
     font-size: 18px;
     line-height: 26px;
 }
 
 /* try to make it look like google news*/
 
+
+/*.figure {border：50px solid black;}
+why this not working
+*/
+
 .author {
+    display: block;
+    font-family: 'Merriweather', serif;
     font-size: 20px;
     text-align: center;
 }
