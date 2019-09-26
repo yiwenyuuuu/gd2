@@ -4,7 +4,7 @@ body {
     max-width: 800px;
 }
 
-/* === heading, auothor & date ===*/
+/* === title ===*/
 
 h1 {
     background-color: black;
@@ -18,11 +18,15 @@ h1 {
     letter-spacing: 4px;
 }
 
+/* === date ===*/
+
 h2 {
     font-family: 'Merriweather', serif;
     font-size: 20px;
     text-align: center;
 }
+
+/* === author ===*/
 
 .author {
     display: block;
@@ -31,7 +35,7 @@ h2 {
     text-align: center;
 }
 
-/* === main body of article ===*/
+/* === blockquote ===*/
 
 blockquote {
     color: darkgray;
@@ -43,13 +47,15 @@ blockquote {
     line-height: 30px;
 }
 
+/* === main body of article ===*/
+
 p {
     font-family: 'Merriweather', serif;
     font-size: 18px;
     line-height: 26px;
 }
 
-/* try to make it look like google news*/
+/*try to make it look like google news*/
 
 .product-name {
     text-transform: uppercase;
