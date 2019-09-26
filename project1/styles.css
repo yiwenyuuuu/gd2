@@ -23,13 +23,13 @@ h2 {
 }
 
 blockquote {
-    color: grey;
+    color: darkgray;
     font-family: 'Merriweather', serif;
     font-style: italic;
     font-size: 18px;
     margin: 26px auto;
     max-width: 800px;
-    line-height: 26px;
+    line-height: 30px;
 }
 
 p {
@@ -39,11 +39,6 @@ p {
 }
 
 /* try to make it look like google news*/
-
-
-/*.figure {border：50px solid black;}
-why this not working
-*/
 
 .author {
     display: block;
