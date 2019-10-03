@@ -1,0 +1,66 @@
+body {
+    background-color: lightgrey;
+    margin: 26px auto;
+    max-width: 800px;
+}
+
+/* === title ===*/
+
+h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* === date ===*/
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* === author ===*/
+
+.author {
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* === blockquote ===*/
+
+blockquote {
+    color: dimgrey;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 18px;
+    margin: 26px auto;
+    max-width: 800px;
+    line-height: 30px;
+}
+
+/* === main body of article ===*/
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/*try to make it look like google news*/
+
+.product-name {
+    text-transform: uppercase;
+}
+
+.separator {
+    text-align: center
+}
