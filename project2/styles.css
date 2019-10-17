@@ -20,16 +20,7 @@ h2 {
     line-height: 26px;
 }
 
-.score {
-    font-family: JCHEadA;
-    font-size: 16px;
-}
-
-
-.imbd {
-    color: rgb(246, 197, 24);
-    font-size: 25px;
-}
+/*===== class  =====*/
 
 .button-shadow {
     background-color: rgba(0, 0, 0, 0.1);
@@ -37,52 +28,10 @@ h2 {
     border-radius: 4px;
     height: 35px;
     left: 598px;
-    width: 118px;
     position: absolute;
     top: 173px;
+    width: 118px;
     z-index: -1;
-}
-
-.watch-tralier {
-    background-color: rgb(246, 197, 24);
-    border: 10px solid rgb(246, 197, 24)k;
-    border-radius: 4px;
-    display: inline-block;
-    font-weight: bold;
-    height: 35px;
-    padding: 10px;
-    width: 120px;
-    left: 590px;
-    position: absolute;
-    top: 167px;
-}
-
-.poster {
-    border: 10px solid rgb(58, 58, 58);
-    height: 180px;
-    left: 570px;
-    position: absolute;
-    top: 50px;
-    width: 336px;
-    z-index: -2;
-}
-
-.joker {
-    left: 590px;
-    position: absolute;
-    top: 50px;
-}
-
-.score {
-    left: 590px;
-    position: absolute;
-    top: 110px;
-}
-
-.rating-time {
-    left: 590px;
-    position: absolute;
-    top: 135px;
 }
 
 .genres {
@@ -101,7 +50,60 @@ h2 {
     z-index: -1;
 }
 
-.watch-tralier:hover {
+.imbd {
+    color: rgb(246, 197, 24);
+    font-size: 25px;
+}
+
+.joker {
+    left: 590px;
+    position: absolute;
+    top: 50px;
+}
+
+.poster {
+    border: 10px solid rgb(58, 58, 58);
+    height: 180px;
+    left: 570px;
+    position: absolute;
+    top: 50px;
+    width: 336px;
+    z-index: -2;
+}
+
+.rating-time {
+    left: 590px;
+    position: absolute;
+    top: 135px;
+}
+
+.score {
+    font-family: JCHEadA;
+    font-size: 16px;
+    left: 590px;
+    position: absolute;
+    top: 110px;
+}
+
+.watch-tralier {
+    background-color: rgb(246, 197, 24);
+    border: 10px solid rgb(246, 197, 24)k;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: bold;
+    height: 35px;
+    left: 590px;
+    padding: 10px;
+    position: absolute;
+    top: 167px;
+    width: 120px;
+}
+
+.watch-tralier:active {
     background-color: rgb(58, 58, 58);
     border: 10px solid rgb(58, 58, 58)k;
+}
+
+.watch-tralier:visited {
+    color: rgb(246, 197, 24);
 }
