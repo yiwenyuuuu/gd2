@@ -31,6 +31,18 @@ h2 {
     font-size: 24px;
 }
 
+.button-shadow {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8%;
+    height: 35px;
+    left: 600px;
+    width: 118px;
+    position: absolute;
+    top: 165px;
+    z-index: -1;
+}
+
 .watch-tralier {
     background-color: rgb(246, 197, 24);
     border: 10px solid rgb(246, 197, 24)k;
@@ -44,11 +56,12 @@ h2 {
 }
 
 .poster {
-    height: 160px;
+    border: 10px solid rgb(58, 58, 58);
+    height: 180px;
     left: 570px;
     position: absolute;
     top: 50px;
-    width: 316px;
+    width: 336px;
     z-index: -2;
 }
 
@@ -76,20 +89,12 @@ h2 {
     top: 142px;
 }
 
-.gary-border {
-    border: 10px solid rgb(58, 58, 58);
-    height: 200px;
-    left: 560px;
-    position: absolute;
-    top: 40px;
-    width: 336px;
-}
-
 .gradient {
     background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(55, 55, 55, 0.80) 59%);
-    left: 570px;
+    height: 160px;
+    left: 580px;
     position: absolute;
-    top: 50px;
+    top: 60px;
     width: 316px;
     z-index: -1;
 }
