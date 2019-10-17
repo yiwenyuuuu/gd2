@@ -34,6 +34,10 @@ h2 {
     z-index: -1;
 }
 
+.card {
+    position: relative;
+}
+
 .gradient {
     background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(55, 55, 55, 0.80) 59%);
     height: 160px;
@@ -52,6 +56,7 @@ h2 {
 .title {
     left: 590px;
     position: absolute;
+    text-transform: uppercase;
     top: 65px;
 }
 
@@ -93,7 +98,7 @@ li {
 
 .watch-tralier {
     background-color: rgb(246, 197, 24);
-    border: 10px solid rgb(246, 197, 24)k;
+    /* border: 10px solid rgb(246, 197, 24); */
     border-radius: 4px;
     display: inline-block;
     font-weight: bold;
@@ -101,6 +106,7 @@ li {
     left: 590px;
     padding: 10px;
     position: absolute;
+    text-transform: uppercase;
     top: 167px;
     width: 120px;
 }
