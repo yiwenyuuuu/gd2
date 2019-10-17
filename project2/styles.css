@@ -34,12 +34,6 @@ h2 {
     z-index: -1;
 }
 
-.genres {
-    left: 590px;
-    position: absolute;
-    top: 148px;
-}
-
 .gradient {
     background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(55, 55, 55, 0.80) 59%);
     height: 160px;
@@ -55,10 +49,10 @@ h2 {
     font-size: 25px;
 }
 
-.joker {
+.title {
     left: 590px;
     position: absolute;
-    top: 50px;
+    top: 65px;
 }
 
 .poster {
@@ -71,10 +65,22 @@ h2 {
     z-index: -2;
 }
 
-.rating-time {
-    left: 590px;
+.rating-time-genres {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    left: 550px;
+    list-style: none;
     position: absolute;
     top: 135px;
+}
+
+li {
+    display: inline-block;
+}
+
+.rating-time-genres li:after {
+    color: rgb(255, 255, 255);
+    content: " |";
 }
 
 .score {
@@ -82,7 +88,7 @@ h2 {
     font-size: 16px;
     left: 590px;
     position: absolute;
-    top: 110px;
+    top: 120px;
 }
 
 .watch-tralier {
