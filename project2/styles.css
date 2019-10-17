@@ -39,7 +39,7 @@ h2 {
     left: 600px;
     width: 118px;
     position: absolute;
-    top: 165px;
+    top: 170px;
     z-index: -1;
 }
 
@@ -49,10 +49,12 @@ h2 {
     border-radius: 8%;
     display: inline-block;
     font-weight: bold;
+    height: 35px;
     padding: 10px;
+    width: 120px;
     left: 590px;
     position: absolute;
-    top: 160px;
+    top: 165px;
 }
 
 .poster {
@@ -97,4 +99,9 @@ h2 {
     top: 60px;
     width: 316px;
     z-index: -1;
+}
+
+.watch-tralier:hover {
+    background-color: rgb(58, 58, 58);
+    border: 10px solid rgb(58, 58, 58)k;
 }
