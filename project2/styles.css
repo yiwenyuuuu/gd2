@@ -34,7 +34,7 @@ h2 {
 .button-shadow {
     background-color: rgba(0, 0, 0, 0.1);
     border: 10px solid rgba(0, 0, 0, 0.1);
-    border-radius: 8%;
+    border-radius: 4px;
     height: 35px;
     left: 600px;
     width: 118px;
@@ -46,7 +46,7 @@ h2 {
 .watch-tralier {
     background-color: rgb(246, 197, 24);
     border: 10px solid rgb(246, 197, 24)k;
-    border-radius: 8%;
+    border-radius: 4px;
     display: inline-block;
     font-weight: bold;
     height: 35px;
