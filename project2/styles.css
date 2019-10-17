@@ -17,7 +17,7 @@ a {
 h2 {
     font-family: JCHEadA;
     font-size: 30px;
-    line-height: 25px;
+    line-height: 26px;
 }
 
 .score {
@@ -28,7 +28,7 @@ h2 {
 
 .imbd {
     color: rgb(246, 197, 24);
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .button-shadow {
@@ -36,10 +36,10 @@ h2 {
     border: 10px solid rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     height: 35px;
-    left: 600px;
+    left: 598px;
     width: 118px;
     position: absolute;
-    top: 170px;
+    top: 173px;
     z-index: -1;
 }
 
@@ -54,7 +54,7 @@ h2 {
     width: 120px;
     left: 590px;
     position: absolute;
-    top: 165px;
+    top: 167px;
 }
 
 .poster {
@@ -76,19 +76,19 @@ h2 {
 .score {
     left: 590px;
     position: absolute;
-    top: 105px;
+    top: 110px;
 }
 
 .rating-time {
     left: 590px;
     position: absolute;
-    top: 130px;
+    top: 135px;
 }
 
 .genres {
     left: 590px;
     position: absolute;
-    top: 142px;
+    top: 148px;
 }
 
 .gradient {
