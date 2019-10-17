@@ -15,8 +15,9 @@ a {
 }
 
 h2 {
-    font-family: JCHEadA;
+    font-family: 'Catamaran', sans-serif;
     font-size: 30px;
+    font-weight: bold;
     line-height: 26px;
 }
 
@@ -51,6 +52,7 @@ h2 {
 .imbd {
     color: rgb(246, 197, 24);
     font-size: 25px;
+    font-weight: bold;
 }
 
 .title {
@@ -89,7 +91,7 @@ li {
 }
 
 .score {
-    font-family: JCHEadA;
+    font-family: 'Catamaran', sans-serif;
     font-size: 16px;
     left: 590px;
     position: absolute;
