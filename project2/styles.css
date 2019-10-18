@@ -23,29 +23,45 @@ h2 {
 
 /*===== class  =====*/
 
+.button {
+    background-color: rgb(246, 197, 24);
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: bold;
+    height: 35px;
+    padding: 10px;
+    left: 30px;
+    position: relative;
+    top: 35px;
+    text-transform: uppercase;
+    width: 120px;
+}
+
 .button-shadow {
     background-color: rgba(0, 0, 0, 0.1);
     border: 10px solid rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     height: 35px;
-    left: 598px;
-    position: absolute;
-    top: 173px;
+    left: 40px;
+    position: relative;
+    top: 10px;
     width: 118px;
     z-index: -1;
 }
 
 .card {
     position: relative;
+    left: 580px;
+    top: 50px;
 }
 
 .gradient {
     background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(55, 55, 55, 0.80) 59%);
     height: 160px;
-    left: 580px;
-    position: absolute;
-    top: 60px;
     width: 316px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
     z-index: -1;
 }
 
@@ -56,33 +72,32 @@ h2 {
 }
 
 .title {
-    left: 590px;
-    position: absolute;
     text-transform: uppercase;
-    top: 65px;
+    left: 30px;
+    position: absolute;
+    top: 0px;
 }
 
 .poster {
     border: 10px solid rgb(58, 58, 58);
     height: 180px;
-    left: 570px;
-    position: absolute;
-    top: 50px;
     width: 336px;
+    position: absolute;
+    top: 0px;
     z-index: -2;
+}
+
+li {
+    display: inline-block;
 }
 
 .rating-time-genres {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    left: 550px;
     list-style: none;
-    position: absolute;
-    top: 135px;
-}
-
-li {
-    display: inline-block;
+    left: -10px;
+    position: relative;
+    top: 35px;
 }
 
 .rating-time-genres li:after {
@@ -93,31 +108,16 @@ li {
 .score {
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
-    left: 590px;
-    position: absolute;
-    top: 120px;
+    left: 30px;
+    position: relative;
+    top: 50px;
 }
 
-.watch-tralier {
-    background-color: rgb(246, 197, 24);
-    /* border: 10px solid rgb(246, 197, 24); */
-    border-radius: 4px;
-    display: inline-block;
-    font-weight: bold;
-    height: 35px;
-    left: 590px;
-    padding: 10px;
-    position: absolute;
-    text-transform: uppercase;
-    top: 167px;
-    width: 120px;
-}
-
-.watch-tralier:active {
+.button:active {
     background-color: rgb(58, 58, 58);
     border: 10px solid rgb(58, 58, 58)k;
 }
 
-.watch-tralier:visited {
+.button:visited {
     color: rgb(246, 197, 24);
 }
