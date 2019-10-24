@@ -26,33 +26,29 @@ h2 {
 .button {
     background-color: rgb(246, 197, 24);
     border-radius: 4px;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
     display: inline-block;
     font-weight: bold;
-    height: 35px;
-    padding: 10px;
+    padding: 11px;
     position: relative;
-    top: 35px;
+    text-decoration: none;
     text-transform: uppercase;
-    width: 120px;
-}
-
-.button-shadow {
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 10px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    height: 35px;
-    left: 8px;
-    position: relative;
-    top: 7px;
-    width: 120px;
-    z-index: -1;
+    transition: all 400ms;
+    top: 25px;
 }
 
 .card {
+    margin: 50px auto;
+    padding: 20px;
     position: relative;
-    left: 580px;
-    top: 50px;
-    padding-left: 30px;
+}
+
+.card .poster {
+    height: 180px;
+    width: 336px;
 }
 
 .gradient {
@@ -71,25 +67,32 @@ h2 {
     font-weight: bold;
 }
 
+
 .title {
     text-transform: uppercase;
     position: absolute;
-    top: 5px;
 }
+
+.title .rating-time-genres {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 
 .poster {
     border: 10px solid rgb(58, 58, 58);
-    height: 180px;
-    width: 336px;
-    left: -5px;
+    left: 0;
     position: absolute;
-    top: 0px;
+    right: 0;
+    top: 0;
     z-index: -2;
+    /* left=0;right=0 keeps the image centered in card*/
 }
 
 li {
     display: inline-block;
 }
+
 
 .rating-time-genres {
     font-family: Arial, Helvetica, sans-serif;
@@ -97,7 +100,7 @@ li {
     list-style: none;
     left: -40px;
     position: relative;
-    top: 40px;
+    top: 35px;
 }
 
 .rating-time-genres li:after {
@@ -112,11 +115,7 @@ li {
     top: 55px;
 }
 
-.button:active {
-    background-color: rgb(58, 58, 58);
-    border: 10px solid rgb(58, 58, 58)k;
-}
-
-.button:visited {
-    color: rgb(246, 197, 24);
+.button:hover {
+    background-color: rgba(255, 193, 24);
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.5);
 }
