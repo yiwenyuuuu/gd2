@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+/*===== class  =====*/
+
+.button {
+    background-color: rgb(246, 197, 24);
+    border-radius: 4px;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 11px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 400ms;
+    top: 25px;
+}
+
+.card {
+    margin: 50px auto;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.card .poster {
+    height: 180px;
+    width: 336px;
+}
+
+.gradient {
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(55, 55, 55, 0.80) 59%);
+    height: 160px;
+    width: 316px;
+    left: 5px;
+    position: absolute;
+    top: 10px;
+    z-index: -1;
+}
+
+.imbd {
+    color: rgb(246, 197, 24);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.title {
+    text-transform: uppercase;
+    position: absolute;
+}
+
+
+.title,
+.rating-time-genres {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.poster {
+    border: 10px solid rgb(58, 58, 58);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -2;
+    /* left=0;right=0 keeps the image centered in card*/
+}
+
+li {
+    display: inline-block;
+}
+
+
+.rating-time-genres {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    top: 20px;
+}
+
+.rating-time-genres li:after {
+    color: rgb(255, 255, 255);
+    content: " |";
+}
+
+.score {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+}
+
+.button:hover {
+    background-color: rgba(255, 193, 24);
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.5);
+}
