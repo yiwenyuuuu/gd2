@@ -6,25 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=BenchNine:300,400,700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
 
     <form action="">
+
+        <h2>identity</h2>
+
         <label for="real-name">Real Name</label>
         <input id="real-name" type="text" placeholder="required">
 
-        <label for="tel-phone">Telephonne Number</label>
-        <input id="tel-phone" type="number" placeholder="required">
-        <!--<label for="tel-phone">Number
-            <input id="tel-phone" type="number">
-        </label>-->
+        <label for="alias">Alias</label>
+        <input id="alias" type="text" placeholder="required">
+
         <label for="email">Email</label>
         <input id="email" type="email" placeholder="required">
 
+        <!--identity-->
+
+        <h2>personal characteristic</h2>
+
+        <label for="age">Age</label>
+        <input id="age" type="number" placeholder="required">
+
+        <fieldset>
+            <legend>Category</legend>
+
+            <p>Please select as many as apply to your origin and how you gained your powers.</p>
+
+
+            <label for="alien">
+                <input id="alien" type="checkbox">Alien
+            </label>
+
+            <label for="cybrog">
+                <input id="cybrog" type="checkbox">Cybrog
+            </label>
+
+            <label for="experiment">
+                <input id="experiment" type="checkbox">Experiment
+            </label>
+
+            <label for="human">
+                <input id="human" type="checkbox">Human
+            </label>
+
+            <label for="inhuman">
+                <input id="inhuman" type="checkbox">Inhuman
+            </label>
+
+            <label for="mutant">
+                <input id="mutant" type="checkbox">Mutant
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+
+            <label for="female">
+                <input name="gender" id="female" type="radio">Female
+            </label>
+
+            <label for="male">
+                <input name="gender" id="male" type="radio">Male
+            </label>
+
+            <label for="nonbinary">
+                <input name="gender" id="nonbinary" type="radio">Nonbinary
+            </label>
+
+            <label for="genderqueer-genderfluid">
+                <input name="gender" id="genderqueer-genderfluid" type="radio">Genderqueer/Genderfluid
+            </label>
+
+            <label for="prefer-not-to-answer">
+                <input name="gender" id="prefer-not-to-answer" type="radio">Prefer not to answer
+            </label>
+
+            <label for="prefer-to-self-describe">
+                <input name="gender" id="prefer-to-self-describe" type="radio">Prefer to self describe
+            </label>
+            <textarea name="gender" id="gender"></textarea>
+        </fieldset>
+
+        <!--personal characteristic-->
+
+        <h2>powers&abilities</h2>
         <label for="powers">Describe your powers</label>
         <textarea name="" id="powers"></textarea>
+
 
         <label for="speed">Speed</label>
         <select name="" id="">
@@ -32,26 +105,9 @@
             <option value="value">Another thing</option>
         </select>
 
-        <fieldset>
-            <legend>Category</legend>
+        <!--powers&abilities-->
 
-            <input id="alien" type="checkbox">
-            <label for="alien">Alien</label>
 
-            <input id="cybrog" type="checkbox">
-            <label for="cybrog">Cybrog</label>
-        </fieldset>
-
-        <fieldset>
-            <legend>Gender</legend>
-            <input name="gender" id="woman" type="radio">
-            <label for="woman">Woman</label>
-
-            <input name="gender" id="man" type="radio">
-            <label for="man">Man</label>
-
-            <input name="gender" id="nonbinary" type="radio">
-            <label for="nonbinary">Nonbinary</label>
         </fieldset>
 
         <button class=" button-reset" type="submit">Register Now</button>
