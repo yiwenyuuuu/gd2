@@ -14,105 +14,108 @@
 <body>
 
     <form action="">
+        <section class="box">
+            <h2>identity</h2>
 
-        <h2>identity</h2>
+            <section class="blank">
+                <label for="real-name">Real Name</label>
+                <input id="real-name" type="text" placeholder="required">
 
-        <label for="real-name">Real Name</label>
-        <input id="real-name" type="text" placeholder="required">
+                <label for="alias">Alias</label>
+                <input id="alias" type="text" placeholder="required">
 
-        <label for="alias">Alias</label>
-        <input id="alias" type="text" placeholder="required">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="required">
+            </section>
 
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="required">
+            <!--identity-->
 
-        <!--identity-->
+            <h2>personal characteristic</h2>
 
-        <h2>personal characteristic</h2>
+            <label for="age">Age</label>
+            <input id="age" type="number" placeholder="required">
 
-        <label for="age">Age</label>
-        <input id="age" type="number" placeholder="required">
+            <fieldset>
+                <legend>Category</legend>
 
-        <fieldset>
-            <legend>Category</legend>
-
-            <p>Please select as many as apply to your origin and how you gained your powers.</p>
-
-
-            <label for="alien">
-                <input id="alien" type="checkbox">Alien
-            </label>
-
-            <label for="cybrog">
-                <input id="cybrog" type="checkbox">Cybrog
-            </label>
-
-            <label for="experiment">
-                <input id="experiment" type="checkbox">Experiment
-            </label>
-
-            <label for="human">
-                <input id="human" type="checkbox">Human
-            </label>
-
-            <label for="inhuman">
-                <input id="inhuman" type="checkbox">Inhuman
-            </label>
-
-            <label for="mutant">
-                <input id="mutant" type="checkbox">Mutant
-            </label>
-        </fieldset>
-
-        <fieldset class="gender">
-            <legend>Gender</legend>
-
-            <label for="female">
-                <input name="gender" id="female" type="radio">Female
-            </label>
-
-            <label for="male">
-                <input name="gender" id="male" type="radio">Male
-            </label>
-
-            <label for="nonbinary">
-                <input name="gender" id="nonbinary" type="radio">Nonbinary
-            </label>
-
-            <label for="genderqueer-genderfluid">
-                <input name="gender" id="genderqueer-genderfluid" type="radio">Genderqueer/Genderfluid
-            </label>
-
-            <label for="prefer-not-to-answer">
-                <input name="gender" id="prefer-not-to-answer" type="radio">Prefer not to answer
-            </label>
-
-            <label for="prefer-to-self-describe">
-                <input name="gender" id="prefer-to-self-describe" type="radio">Prefer to self describe
-            </label>
-            <textarea name="gender" id="gender"></textarea>
-        </fieldset>
-
-        <!--personal characteristic-->
-
-        <h2>powers&abilities</h2>
-        <label for="powers">Describe your powers</label>
-        <textarea name="" id="powers"></textarea>
+                <h3>Please select as many as apply to your origin and how you gained your powers.</h3>
 
 
-        <label for="speed">Speed</label>
-        <select name="" id="">
-            <option value="testing">Testing A Thing</option>
-            <option value="value">Another thing</option>
-        </select>
+                <label for="alien">
+                    <input id="alien" type="checkbox">Alien
+                </label>
 
-        <!--powers&abilities-->
+                <label for="cybrog">
+                    <input id="cybrog" type="checkbox">Cybrog
+                </label>
+
+                <label for="experiment">
+                    <input id="experiment" type="checkbox">Experiment
+                </label>
+
+                <label for="human">
+                    <input id="human" type="checkbox">Human
+                </label>
+
+                <label for="inhuman">
+                    <input id="inhuman" type="checkbox">Inhuman
+                </label>
+
+                <label for="mutant">
+                    <input id="mutant" type="checkbox">Mutant
+                </label>
+            </fieldset>
+
+            <fieldset class="gender">
+                <legend>Gender</legend>
+
+                <label for="female">
+                    <input name="gender" id="female" type="radio">Female
+                </label>
+
+                <label for="male">
+                    <input name="gender" id="male" type="radio">Male
+                </label>
+
+                <label for="nonbinary">
+                    <input name="gender" id="nonbinary" type="radio">Nonbinary
+                </label>
+
+                <label for="genderqueer-genderfluid">
+                    <input name="gender" id="genderqueer-genderfluid" type="radio">Genderqueer/Genderfluid
+                </label>
+
+                <label for="prefer-not-to-answer">
+                    <input name="gender" id="prefer-not-to-answer" type="radio">Prefer not to answer
+                </label>
+
+                <label for="prefer-to-self-describe">
+                    <input name="gender" id="prefer-to-self-describe" type="radio">Prefer to self describe
+                </label>
+                <textarea name="gender" id="gender"></textarea>
+            </fieldset>
+
+            <!--personal characteristic-->
+
+            <h2>powers&abilities</h2>
+            <label for="powers">Describe your powers</label>
+            <textarea name="powers" id="powers"></textarea>
 
 
-        </fieldset>
+            <label for="speed">Speed</label>
+            <select name="" id="">
+                <option value="testing">Testing A Thing</option>
+                <option value="value">Another thing</option>
+            </select>
 
-        <button class=" button-reset" type="submit">Register Now</button>
+            <!--powers&abilities-->
 
+
+            </fieldset>
+
+            <button class=" button-reset" type="submit">Register Now</button>
+
+        </section>
     </form>
 
 </body>

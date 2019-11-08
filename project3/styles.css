@@ -1,3 +1,13 @@
+：root {
+    --color-red: #c61a3a;
+    --color-green: #71f79f;
+    --color-offblack: #1e2019;
+    --color-grey: #d1d5de;
+    --color-offwhite: #fafafa;
+    --color-blue: #163346;
+}
+
+/*  ================== COLOR PALETTE ==================*/
 *,
 *::before,
 *::after {
@@ -7,24 +17,10 @@
 /*when using pseudo elements we need   *::before,*::after   */
 
 body {
+    color: var(--color-offwhite);
     font-family: 'BenchNine', sans-serif;
     font-size: 24px;
     font-weight: 700;
-}
-
-.button-reset {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    padding: 0;
-    text-align: inherit;
-}
-
-​ .button-reset[disabled] {
-    cursor: default;
 }
 
 fieldset {
@@ -39,8 +35,13 @@ fieldset+fieldset {
 
 h2 {
     font-family: 'Teko', sans-serif;
+    font-weight: 500;
     font-size: 32px;
     text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
 }
 
 label {
@@ -51,8 +52,10 @@ select {
     cursor: pointer;
 }
 
-.tel-phone {
-    display: block;
+textarea {
+    height: 60px;
+    width: 300px;
+
 }
 
 input {
@@ -77,19 +80,34 @@ input[type="checkbox"] {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    border: 3px solid black;
-    height: 12px;
-    width: 12px;
+    border: 2px solid var(--color-offwhite);
+    position: relative;
+    top: 6px;
+    height: 24px;
+    width: 24px;
 }
 
 input[type="radio"] {
     border-radius: 50%;
 }
 
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    border: 2px solid var(--color-green)
+}
+
 input[type="radio"]:checked,
 input[type="checkbox"]:checked {
-    background-color: aqua;
+    border: 2px solid var(--color-offwhite);
+    background-color: var(--color-green);
 }
+
+input[type="radio"]:checked+label {
+    padding-bottom: 2px solid var(--color-green);
+}
+
 
 input[type="radio"]:checked+label,
 input[type="checkbox"]:checked+label {
@@ -118,4 +136,33 @@ input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
     background-color: orange;
+}
+
+/*  ================== GLOBAL SETTINGS ================== */
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+​ .button-reset[disabled] {
+    cursor: default;
+}
+
+.box {
+    background-color: var(--color-offblack);
+    padding: 25px;
+    margin: auto;
+    min-width: 350px;
+    width: 60%;
+}
+
+.powers {
+    width: 80%;
 }
