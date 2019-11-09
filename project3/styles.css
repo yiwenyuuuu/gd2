@@ -169,6 +169,10 @@ input[type="number"]:not(:placeholder-shown):invalid {
 */
 /*  ================== GLOBAL SETTINGS ================== */
 
+.age {
+    display: block;
+}
+
 .button-reset {
     background: var(--color-green);
     border: 5px solid var(--color-offblack);
@@ -213,18 +217,70 @@ input[type="number"]:not(:placeholder-shown):invalid {
     width: 60%;
 }
 
-.confirm_box {
+.boxes {
+    margin: auto;
+}
+
+.catagory,
+.gender {
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+}
+
+.confirm-box {
     position: relative;
     margin: auto;
     max-width: 500px;
+}
 
+.confirm-line {
+    display: block;
 }
 
 .powers {
     width: 80%;
 }
 
+.select-reset {
+    background: var(--color-offwhite);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    height: 70px;
+    margin: auto;
+    width: 200px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
 .shield {
     display: block;
     margin: auto;
+}
+
+.strengh,
+.speed,
+.intelligence {
+    display: block;
+    margin: auto;
+}
+
+.strengh-box,
+.speed-box,
+.intelligence-box {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+}
+
+
+.strengh-label,
+.speed-label,
+.intelligence-label {
+    text-align: center;
 }
