@@ -1,4 +1,4 @@
-：root {
+:root {
     --color-red: #c61a3a;
     --color-green: #71f79f;
     --color-offblack: #1e2019;
@@ -48,6 +48,10 @@ label {
     display: block;
 }
 
+p {
+    color: var(--color-grey);
+}
+
 select {
     cursor: pointer;
 }
@@ -95,7 +99,7 @@ input[type="radio"]:focus,
 input[type="checkbox"]:focus,
 input[type="radio"]:hover,
 input[type="checkbox"]:hover {
-    border: 2px solid var(--color-green)
+    border: 2px solid var(--color-green);
 }
 
 input[type="radio"]:checked,
@@ -104,33 +108,39 @@ input[type="checkbox"]:checked {
     background-color: var(--color-green);
 }
 
+
 input[type="radio"]:checked+label {
     padding-bottom: 2px solid var(--color-green);
 }
 
-
-input[type="radio"]:checked+label,
-input[type="checkbox"]:checked+label {
-    color: aqua;
+/*
+input[type="radio"]:checked+label.selected-decoration,
+input[type="checkbox"]:checked.selected-decoration {
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-green);
 }
+*/
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus {
-    background-color: aqua;
+    border-bottom-color: var(--color-green);
 }
 
+/*
 input[type="text"]:required:valid,
 input[type="email"]:required:valid,
 input[type="number"]:required:valid {
     background-color: greenyellow;
 }
 
+
 input[type="text"]:required:invalid,
 input[type="email"]:required:invalid,
 input[type="number"]:required:invalid {
-    background-color: orange;
+    border-bottom-color: var(--color-red);
 }
+
 
 input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
@@ -138,17 +148,39 @@ input[type="number"]:not(:placeholder-shown):invalid {
     background-color: orange;
 }
 
+*/
 /*  ================== GLOBAL SETTINGS ================== */
 
 .button-reset {
-    background: transparent;
-    border: 0;
+    background: var(--color-green);
+    border: 5px solid var(--color-offblack);
     cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
+    display: block;
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    height: 90px;
+    margin: auto;
+    width: 200px;
     padding: 0;
-    text-align: inherit;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-reset:hover {
+    background: var(--color-green);
+    border: 5px solid var(--color-offblack);
+    cursor: pointer;
+    display: block;
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    height: 90px;
+    margin: auto;
+    width: 200px;
+    outline: 3px solid var(--color-green);
+    padding: 0;
+    text-align: center;
 }
 
 ​ .button-reset[disabled] {
@@ -161,6 +193,13 @@ input[type="number"]:not(:placeholder-shown):invalid {
     margin: auto;
     min-width: 350px;
     width: 60%;
+}
+
+.confirm_box {
+    position: relative;
+    margin: auto;
+    max-width: 500px;
+
 }
 
 .powers {

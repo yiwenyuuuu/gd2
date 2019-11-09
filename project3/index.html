@@ -69,7 +69,7 @@
             <fieldset class="gender">
                 <legend>Gender</legend>
 
-                <label for="female">
+                <label for="female" class="selected-decoration">
                     <input name="gender" id="female" type="radio">Female
                 </label>
 
@@ -93,6 +93,7 @@
                     <input name="gender" id="prefer-to-self-describe" type="radio">Prefer to self describe
                 </label>
                 <textarea name="gender" id="gender"></textarea>
+
             </fieldset>
 
             <!--personal characteristic-->
@@ -112,6 +113,14 @@
 
 
             </fieldset>
+
+            <div class="confirm_box">
+                <label for="confirm">
+                    <input id="confirm" type="checkbox">I confirm the above information represents my current details
+                    and is
+                    correct to the best of my knowledge.
+                </label>
+            </div>
 
             <button class=" button-reset" type="submit">Register Now</button>
 
