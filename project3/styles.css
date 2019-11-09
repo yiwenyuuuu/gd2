@@ -32,15 +32,33 @@ fieldset+fieldset {
     display: inline-block;
 }
 
+h1 {
+    color: black;
+    display: block;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
 
 h2 {
+    color: var(--color-grey);
     font-family: 'Teko', sans-serif;
     font-weight: 500;
     font-size: 32px;
     text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: var(--color-blue);
 }
 
 h3 {
+    color: var(--color-blue);
+    text-align: center;
+}
+
+h3,
+h4 {
     font-size: 16px;
 }
 
@@ -204,4 +222,9 @@ input[type="number"]:not(:placeholder-shown):invalid {
 
 .powers {
     width: 80%;
+}
+
+.shield {
+    display: block;
+    margin: auto;
 }
