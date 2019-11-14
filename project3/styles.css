@@ -107,6 +107,7 @@ input,
 select,
 textarea {
     font-family: inherit;
+    font-size: 18px;
 }
 
 input[type="number"] {
@@ -169,11 +170,16 @@ input[type="number"]:focus {
     border-bottom-color: var(--color-green);
 }
 
+input[type="textarea"]:focus {
+    border-color: var(--color-green);
+}
+
+
 /*
 input[type="text"]:required:valid,
 input[type="email"]:required:valid,
 input[type="number"]:required:valid {
-    background-color: greenyellow;
+    background-color: var(--color-green);
 }
 
 
@@ -189,8 +195,8 @@ input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
     background-color: orange;
 }
-
 */
+
 /*  ================== GLOBAL SETTINGS ================== */
 
 .age {
@@ -330,7 +336,8 @@ h1 {
 .intelligence-box {
     display: inline-block;
     height: 300px;
-    width: 260px;
+    min-width: 200px;
+    width: 10%;
 }
 
 .strengh-label,
