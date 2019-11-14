@@ -17,6 +17,7 @@
 /*when using pseudo elements we need   *::before,*::after   */
 
 body {
+    background-color: var(--color-blue);
     color: var(--color-offwhite);
     font-family: 'BenchNine', sans-serif;
     font-size: 24px;
@@ -64,10 +65,6 @@ h4 {
 
 label {
     display: block;
-}
-
-p {
-    color: var(--color-grey);
 }
 
 select {
@@ -231,6 +228,7 @@ input[type="number"]:not(:placeholder-shown):invalid {
 .confirm-box {
     position: relative;
     margin: auto;
+    border-top: 4px solid var(--color-blue);
     max-width: 500px;
 }
 
@@ -284,3 +282,5 @@ input[type="number"]:not(:placeholder-shown):invalid {
 .intelligence-label {
     text-align: center;
 }
+
+/*  ================== CUSTOM STYLES ================== */
