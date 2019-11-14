@@ -43,7 +43,7 @@ h1 {
     width: 60%;
 }
 
-h2 {
+/*h2 {
     color: var(--color-grey);
     font-family: 'Teko', sans-serif;
     font-weight: 500;
@@ -51,6 +51,17 @@ h2 {
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-color: var(--color-blue);
+}*/
+
+h2 {
+    border-bottom: 3px solid var(--color-blue);
+    color: var(--color-grey);
+    display: inline-block;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    height: 45px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -236,6 +247,11 @@ input[type="number"]:not(:placeholder-shown):invalid {
     display: block;
 }
 
+.describe-your-powers {
+    width: 100%;
+    height: 160px;
+}
+
 .powers {
     width: 80%;
 }
@@ -272,7 +288,7 @@ input[type="number"]:not(:placeholder-shown):invalid {
 .speed-box,
 .intelligence-box {
     display: inline-block;
-    height: 200px;
+    height: 300px;
     width: 250px;
 }
 
@@ -281,6 +297,15 @@ input[type="number"]:not(:placeholder-shown):invalid {
 .speed-label,
 .intelligence-label {
     text-align: center;
+}
+
+
+.split {
+    background-color: var(--color-grey);
+    height: 500px;
+    width: inherit;
+    position: relative;
+    z-index: -1;
 }
 
 /*  ================== CUSTOM STYLES ================== */
