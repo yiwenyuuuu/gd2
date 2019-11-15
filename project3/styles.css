@@ -149,6 +149,16 @@ input[type="radio"]:checked+label {
     padding-bottom: 2px solid var(--color-green);
 }
 
+
+span {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: -33px;
+    margin-left: 5px;
+    width: 95%;
+}
+
 /*
 input[type="radio"]:checked+label.selected-decoration,
 input[type="checkbox"]:checked.selected-decoration {
@@ -351,7 +361,7 @@ h1 {
 .strengh-box,
 .speed-box,
 .intelligence-box {
-    display: inline-block;
+    margin: auto;
     height: 300px;
     min-width: 250px;
     width: 10%;
@@ -374,3 +384,12 @@ h1 {
 }
 
 /*  ================== CUSTOM STYLES ================== */
+@media (min-width:920px) {
+
+    .strengh-box,
+    .speed-box,
+    .intelligence-box {
+        display: inline-block;
+        width: 30%;
+    }
+}
