@@ -82,6 +82,12 @@ h4 {
     margin-bottom: 3px;
 }
 
+header {
+    background-color: var(--color-grey);
+    height: 500px;
+    margin-bottom: -150px;
+}
+
 label {
     display: block;
 }
@@ -149,16 +155,6 @@ input[type="radio"]:checked+label {
     padding-bottom: 2px solid var(--color-green);
 }
 
-
-span {
-    display: inline-block;
-    position: relative;
-    left: 30px;
-    top: -33px;
-    margin-left: 5px;
-    width: 95%;
-}
-
 /*
 input[type="radio"]:checked+label.selected-decoration,
 input[type="checkbox"]:checked.selected-decoration {
@@ -184,6 +180,15 @@ input[type="textarea"]:focus {
     border-color: var(--color-green);
 }
 
+
+span {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: -33px;
+    margin-left: 5px;
+    width: 95%;
+}
 
 /*
 input[type="text"]:required:valid,
