@@ -237,6 +237,23 @@ input[type="number"]:not(:placeholder-shown):invalid {
     text-align: center;
 }
 
+.button-reset:active {
+    background: var(--color-offwhite);
+    border: 5px solid var(--color-green);
+    color: var(--color-offblack);
+    cursor: pointer;
+    display: block;
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    height: 90px;
+    margin: auto;
+    width: 200px;
+    outline: 3px solid var(--color-green);
+    padding: 0;
+    text-align: center;
+}
+
 ​ .button-reset[disabled] {
     cursor: default;
 }
