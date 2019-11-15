@@ -173,11 +173,11 @@ input[type="number"] {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus {
-    border-bottom-color: var(--color-green);
+    border-bottom: 3px solid var(--color-green);
 }
 
-input[type="textarea"]:focus {
-    border-color: var(--color-green);
+textarea:focus {
+    border: 3px solid var(--color-green);
 }
 
 
