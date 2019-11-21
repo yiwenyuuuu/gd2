@@ -155,14 +155,6 @@ input[type="radio"]:checked+label {
     padding-bottom: 2px solid var(--color-green);
 }
 
-/*
-input[type="radio"]:checked+label.selected-decoration,
-input[type="checkbox"]:checked.selected-decoration {
-    text-decoration-line: underline;
-    text-decoration-color: var(--color-green);
-}
-*/
-
 input[type="text"],
 input[type="email"],
 input[type="number"] {
@@ -190,27 +182,12 @@ span {
     width: 95%;
 }
 
-/*
-input[type="text"]:required:valid,
-input[type="email"]:required:valid,
-input[type="number"]:required:valid {
-    background-color: var(--color-green);
-}
-
-
-input[type="text"]:required:invalid,
-input[type="email"]:required:invalid,
-input[type="number"]:required:invalid {
-    border-bottom-color: var(--color-red);
-}
-
-
 input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
-    background-color: orange;
+    border-bottom-color: var(--color-red);
 }
-*/
+
 
 /*  ================== GLOBAL SETTINGS ================== */
 
