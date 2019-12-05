@@ -1,0 +1,282 @@
+:root {
+    --color-pink: #ffb6b6;
+    --color-lightgreen: #d9ef81;
+    --color-darkgreen: #b5d43c;
+    --color-offblack: #312d2f;
+    --color-offwhite: #f7f7f7;
+}
+
+/*  ================== COLOR PALETTE ==================*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-offblack);
+    color: var(--color-offwhite);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 5%;
+}
+
+h1 {
+    font-size: 60px;
+    height: 20px;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-darkgreen);
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+input {
+    font-family: inherit;
+    font-size: 18px;
+    resize: horizontal;
+    resize: vertical;
+    height: 40px;
+    width: 320px;
+}
+
+li {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+li+li {
+    margin-left: 49px;
+}
+
+li a {
+    color: var(--color-offwhite);
+    text-decoration: none;
+    padding: 2px;
+    border-bottom: 1.5px solid var(--color-offwhite);
+}
+
+li a:hover {
+    color: var(--color-lightgreen);
+    font-weight: bold;
+    border-bottom: 0;
+}
+
+nav {
+    background-color: var(--color-offblack);
+    height: 90px;
+    width: fit-content;
+    position: fixed;
+    top: 0;
+}
+
+span {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+}
+
+/*  ================== GLOBAL SETTINGS ================== */
+
+.button {
+    background: var(--color-offwhite);
+    border: 5px solid var(--color-offwhite);
+    color: var(--color-offblack);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    margin: auto;
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: var(--color-lightgreen);
+    border: 5px solid var(--color-lightgreen);
+    color: var(--color-offblack);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    margin: auto;
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:active {
+    background: inherit;
+    border: 5px solid var(--color-lightgreen);
+    color: var(--color-lightgreen);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    margin: auto;
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-register {
+    color: var(--color-offwhite);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-register:hover {
+    color: var(--color-offwhite);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.button-register:active {
+    color: var(--color-lightgreen);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.conference {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.day2 {
+    padding-top: 20px;
+}
+
+.jared {
+    padding-top: 20px;
+}
+
+.jake,
+.kate {
+    padding-top: 40px;
+}
+
+.navigation-sst {
+    display: block;
+
+}
+
+.navigation-name {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.schedule,
+.tickets {
+    color: var(--color-lightgreen);
+}
+
+.schedule-event,
+.speakers-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.schedule-time {
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.schedule-intro {
+    margin-top: 10px;
+}
+
+.tickets {
+    padding-bottom: 50px;
+}
+
+.tickets-content {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tickets-question {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tickets-money {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
