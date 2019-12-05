@@ -15,12 +15,23 @@
 }
 
 body {
-    background-color: var(--color-offblack);
+    background-color: #312d2f;
+    background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
     color: var(--color-offwhite);
     font-family: 'Maven Pro', sans-serif;
     font-size: 16px;
     line-height: 25px;
     padding: 0 5%;
+}
+
+footer {
+    background-color: inherit;
+    background-image: inherit;
+    opacity: 60%;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 h1 {
@@ -29,6 +40,10 @@ h1 {
     line-height: 60px;
     text-transform: uppercase;
     padding-bottom: 20px;
+}
+
+h1:hover {
+    color: var(--color-lightgreen);
 }
 
 h2 {
@@ -45,10 +60,15 @@ h3 {
     padding-bottom: 5px;
 }
 
+h3:hover {
+    color: var(--color-darkgreen);
+}
+
 h4 {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 0;
+    s
 }
 
 input {
@@ -85,7 +105,8 @@ li a:hover {
 }
 
 nav {
-    background-color: var(--color-offblack);
+    background-color: inherit;
+    background-image: inherit;
     height: 90px;
     width: fit-content;
     position: fixed;
@@ -205,33 +226,63 @@ ul {
     text-transform: uppercase;
 }
 
-.conference {
+.conference-photo {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    opacity: 0.7;
     height: 100%;
     width: 100%;
     padding-top: 20px;
 }
 
+.conference-photo:hover {
+    filter: grayscale(0);
+    opacity: 0.6;
+}
+
+
 .day2 {
     padding-top: 20px;
 }
 
-.jared {
+.emial {
+    display: inline-block;
+}
+
+.jared-photo,
+.jake-photo,
+.kate-photo {
+    -webkit-filter: drop-shadow(8px 8px 10px black);
+    filter: drop-shadow(8px 8px 10px black);
+    opacity: 0.7;
+    width: 280px;
     padding-top: 20px;
 }
 
-.jake,
-.kate {
+.jared-photo {
+    padding-top: 20px;
+}
+
+.jake-photo,
+.kate-photo {
     padding-top: 40px;
 }
 
 .navigation-sst {
     display: block;
-
 }
 
 .navigation-name {
     margin-left: 0;
     padding-left: 0;
+}
+
+.register {
+    text-align: center;
 }
 
 .schedule,
@@ -279,4 +330,49 @@ ul {
 .title {
     padding-top: 80px;
     padding-bottom: 40px;
+}
+
+/*  ================== CUSTOM STYLES 375px ================== */
+
+
+@media (min-width:800px) {
+
+    .jared,
+    .jake,
+    .kate {
+        display: inline-block;
+        width: 47%;
+    }
+
+    .jared,
+    .kate {
+        margin-right: 30px;
+    }
+
+    ul {
+        display: inline;
+        text-align: right;
+    }
+
+
+
+
+}
+
+/*  ================== CUSTOM STYLES 800px ================== */
+
+
+@media (min-width:1000px) {
+
+
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+
+
+
+
+
 }

@@ -10,8 +10,7 @@
     <title>Document</title>
 </head>
 
-<body id="top">
-
+<header>
     <nav>
         <ul>
             <li class="navigation-name"><a href="top">beyond the interface 2020</a></li>
@@ -22,6 +21,9 @@
             </div>
         </ul>
     </nav>
+</header>
+
+<body id="top">
     <div class="title">
         <h1>beyond</h1>
         <h1>the</h1>
@@ -29,7 +31,7 @@
     </div>
     <h3>Jan 11-12 2020</h3>
     <h3>Baltimore, MD</h3>
-    <img class="conference" src="images/conference_test.png" alt="picture of conference">
+    <img class="conference-photo" src="images/conference.jpg" alt="picture of conference">
 
     <section class="schedule" id="schedule">
         <h2>Schedule</h2>
@@ -139,44 +141,56 @@
     <section id="speakers">
         <h2>Speakers</h2>
 
-        <img class="jared" src="images/jared.jpg" alt="picture of jared spool">
-        <p class="speakers-name">jared spool</p>
-        <p class="speakers-intro">Jared M. Spool is a Maker of Awesomeness at Center Centre/UIE. Center Centre is
-            the
-            school he started with Leslie Jensen-Inman to create industry-ready User Experience Designers. UIE is
-            Center
-            Centre’s professional development arm, dedicated to understanding what it takes for organizations to
-            produce
-            competitively great products and services.
+        <div class="jared">
+            <img class="jared-photo" src="images/jared.jpg" alt="picture of jared spool">
+            <p class="speakers-name">jared spool</p>
+            <p class="speakers-intro">Jared M. Spool is a Maker of Awesomeness at Center Centre/UIE. Center Centre is
+                the
+                school he started with Leslie Jensen-Inman to create industry-ready User Experience Designers. UIE is
+                Center
+                Centre’s professional development arm, dedicated to understanding what it takes for organizations to
+                produce
+                competitively great products and services.
 
-            In the 39 years he's been in the tech field, he's worked with hundreds of organizations, written two
-            books,
-            published hundreds of articles and podcasts, and tours the world speaking to audiences everywhere. When
-            he
-            can, he does his laundry in Andover, Massachusetts.</p>
+                In the 39 years he's been in the tech field, he's worked with hundreds of organizations, written two
+                books,
+                published hundreds of articles and podcasts, and tours the world speaking to audiences everywhere. When
+                he
+                can, he does his laundry in Andover, Massachusetts.</p>
+        </div>
 
-        <img class="jake" src="images/jake.jpg" alt="picture of jake knapp">
-        <p class="speakers-name">jake knapp</p>
-        <p class="speakers-introduction">Jake Knapp is the author of Make Time and the New York Times bestseller,
-            Sprint.
+        <div class="jake">
+            <img class="jake-photo" src="images/jake.jpg" alt="picture of jake knapp">
+            <p class="speakers-name">jake knapp</p>
+            <p class="speakers-introduction">Jake Knapp is the author of Make Time and the New York Times bestseller,
+                Sprint.
 
-            Jake spent 10 years at Google and Google Ventures, where he created the Design Sprint. He has since coached
-            teams like Slack, Uber, 23andMe, LEGO, and The New York Times on the method.
+                Jake spent 10 years at Google and Google Ventures, where he created the Design Sprint. He has since
+                coached
+                teams like Slack, Uber, 23andMe, LEGO, and The New York Times on the method.
 
-            Previously, Jake helped build products like Gmail, Google Hangouts, and Microsoft Encarta. He is currently
-            among
-            the world’s tallest designers.</p>
+                Previously, Jake helped build products like Gmail, Google Hangouts, and Microsoft Encarta. He is
+                currently
+                among
+                the world’s tallest designers.</p>
+        </div>
 
-        <img class="kate" src="images/kate.jpg" alt="picture of kate retter">
-        <p class="speakers-name">kate retter</p>
-        <p class="speakers-introdeuction">Kate is an entrepreneur+designer and Principal at Intelleto, where she creates
-            visual
-            explanations that make complex ideas simple, memorable and shareable. Kate pioneered the UX learning track
-            at
-            Tradecraft, Co-founded Luxr.co, and was Senior Practitioner at UX consultancy Adaptive Path. She co-hosts
-            the
-            NSFW podcast What Is Wrong With UX with Laura Klein, and blogs at intelleto.com.</p>
+        <div class="kate">
+            <img class="kate-photo" src="images/kate.jpg" alt="picture of kate retter">
+            <p class="speakers-name">kate retter</p>
+            <p class="speakers-introdeuction">Kate is an entrepreneur+designer and Principal at Intelleto, where she
+                creates
+                visual
+                explanations that make complex ideas simple, memorable and shareable. Kate pioneered the UX learning
+                track
+                at
+                Tradecraft, Co-founded Luxr.co, and was Senior Practitioner at UX consultancy Adaptive Path. She
+                co-hosts
+                the
+                NSFW podcast What Is Wrong With UX with Laura Klein, and blogs at intelleto.com.</p>
+        </div>
     </section>
+
 
     <section class="tickets" id=" tickets">
         <h2>Tickets</h2>
@@ -197,15 +211,15 @@
 
 <footer>
     <h2>Get connected</h2>
-    <p>Register your Email Address to stay in the loop for all things TDC. Big announcements coming
+    <p class="register">Register your Email Address to stay in the loop for all things TDC. Big announcements coming
         very soon!
     </p>
-    <section class="register">
+    <section class="email">
         <label for="email">Email</label>
         <input id="email" type="email" placeholder="xxx@beyondtheinterface.com">
     </section>
 
-    <div class="button-register">register</div>
+    <a class="button-register" href="http://">register</a>
 
 
 </footer>
