@@ -113,6 +113,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 10;
+
 }
 
 span {
@@ -123,12 +124,12 @@ span {
 ul {
     display: inline-block;
     list-style: none;
-    text-align: left;
-    width: 90%;
-    left: 5%;
-    right: 5%;
+    text-align: center;
+    width: 100%;
     margin: 0;
     padding-left: 0;
+    position: relative;
+    top: 10px;
 }
 
 /*  ================== GLOBAL SETTINGS ================== */
@@ -279,13 +280,12 @@ ul {
 }
 
 .navigation-sst {
-    display: inline-block;
-    text-align: center;
+    margin: auto;
+    padding-left: 0;
 }
 
 .navigation-name {
-    display: inline-block;
-    text-align: center;
+    margin: auto;
 }
 
 /*
