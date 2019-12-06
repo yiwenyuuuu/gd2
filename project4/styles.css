@@ -68,7 +68,6 @@ h4 {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 0;
-    s
 }
 
 input {
@@ -100,17 +99,20 @@ li a {
 
 li a:hover {
     color: var(--color-lightgreen);
-    font-weight: bold;
-    border-bottom: 0;
+    border-bottom-color: transparent;
 }
 
 nav {
-    background-color: inherit;
-    background-image: inherit;
+    -webkit-filter: drop-shadow(4px 4px 4px black);
+    filter: drop-shadow(4px 4px 4px black);
+    background-color: var(--color-offblack);
+    background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
     height: 90px;
-    width: fit-content;
+    left: 0;
+    width: 100%;
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 span {
