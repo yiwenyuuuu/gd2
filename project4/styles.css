@@ -103,7 +103,6 @@ li a:hover {
 }
 
 nav {
-    float: right;
     -webkit-filter: drop-shadow(4px 4px 4px black);
     filter: drop-shadow(4px 4px 4px black);
     background-color: var(--color-offblack);
@@ -112,6 +111,7 @@ nav {
     left: 0;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 10;
 }
 
@@ -255,7 +255,7 @@ ul {
     padding-top: 20px;
 }
 
-.emial {
+.email {
     text-align: center;
 }
 
@@ -276,6 +276,16 @@ ul {
 .jake-photo,
 .kate-photo {
     padding-top: 40px;
+}
+
+.navigation-sst {
+    display: inline-block;
+    text-align: center;
+}
+
+.navigation-name {
+    display: inline-block;
+    text-align: center;
 }
 
 /*
