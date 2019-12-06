@@ -394,15 +394,16 @@ ul {
     }
 
     .navigation-sst {
-        display: inline-block;
         float: right;
         position: relative;
         top: 8px;
+        left: -5px;
     }
 
     .navigation-name {
         position: relative;
         top: 20px;
+        left: 10px;
     }
 
 
@@ -421,6 +422,8 @@ ul {
     }
 
     ul {
-        width: 1000px;
+        max-width: 900px;
     }
+
+
 }
