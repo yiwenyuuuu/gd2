@@ -103,6 +103,7 @@ li a:hover {
 }
 
 nav {
+    float: right;
     -webkit-filter: drop-shadow(4px 4px 4px black);
     filter: drop-shadow(4px 4px 4px black);
     background-color: var(--color-offblack);
@@ -111,7 +112,6 @@ nav {
     left: 0;
     width: 100%;
     position: fixed;
-    top: 0;
     z-index: 10;
 }
 
@@ -121,8 +121,12 @@ span {
 }
 
 ul {
+    display: inline-block;
     list-style: none;
-    text-align: center;
+    text-align: left;
+    width: 90%;
+    left: 5%;
+    right: 5%;
     margin: 0;
     padding-left: 0;
 }
@@ -252,7 +256,7 @@ ul {
 }
 
 .emial {
-    display: inline-block;
+    text-align: center;
 }
 
 .jared-photo,
@@ -274,6 +278,7 @@ ul {
     padding-top: 40px;
 }
 
+/*
 .navigation-sst {
     display: block;
 }
@@ -282,14 +287,20 @@ ul {
     margin-left: 0;
     padding-left: 0;
 }
+*/
 
 .register {
     text-align: center;
 }
 
+.speakers {
+    padding-top: 70px;
+}
+
 .schedule,
 .tickets {
     color: var(--color-lightgreen);
+    padding-top: 70px;
 }
 
 .schedule-event,
@@ -344,11 +355,16 @@ ul {
     .kate {
         display: inline-block;
         width: 47%;
+        vertical-align: top;
     }
 
     .jared,
     .kate {
         margin-right: 30px;
+    }
+
+    .jake-photo {
+        padding-top: 20px;
     }
 
     ul {
