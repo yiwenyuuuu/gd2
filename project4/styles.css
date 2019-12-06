@@ -377,11 +377,33 @@ ul {
         padding-top: 20px;
     }
 
-    ul {
-        display: inline;
-        text-align: right;
+    nav {
+        float: right;
     }
 
+
+    ul {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        margin: 0;
+        padding-left: 0;
+        position: relative;
+        text-align: left;
+        top: 10px;
+    }
+
+    .navigation-sst {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 8px;
+    }
+
+    .navigation-name {
+        position: relative;
+        top: 20px;
+    }
 
 
 
@@ -398,9 +420,7 @@ ul {
         margin: auto;
     }
 
-
-
-
-
-
+    ul {
+        width: 1000px;
+    }
 }
