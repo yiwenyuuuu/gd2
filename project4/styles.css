@@ -313,6 +313,7 @@ ul {
 .schedule-time {
     font-weight: 500;
     margin: 5px 0;
+    text-transform: uppercase;
 }
 
 .schedule-intro {
@@ -377,6 +378,7 @@ ul {
 
 @media (min-width:720px) {
 
+
     h1 {
         font-size: 100px;
         line-height: 80px;
@@ -385,70 +387,68 @@ ul {
 
     h3 {
         font-size: 50px;
-        line-height: 50px;
-        margin-top: 0;
-        margin-bottom: 10px;
-        padding-bottom: 5px;
+        line-height: 40px;
+    }
+
+    .conference-photo {
+        padding-top: 60px;
+    }
+
+    .jared,
+    .jake,
+    .kate {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+
+    .jared,
+    .kate {
+        margin-right: 8%;
+    }
+
+    .jake-photo {
+        padding-top: 20px;
+    }
+
+
+}
+
+/*  ================== CUSTOM STYLES 720px ================== */
+
+
+@media (min-width:860px) {
+
+    body {
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+        padding-top: 40px;
     }
 
     li {
         font-size: 14px;
+    }
 
-        .conference-photo {
-            padding-top: 60px;
-        }
+    ul {
+        left: 13%;
+    }
 
-        .jared,
-        .jake,
-        .kate {
-            display: inline-block;
-            width: 45%;
-            vertical-align: top;
-        }
-
-        .jared,
-        .kate {
-            margin-right: 8%;
-        }
-
-        .jake-photo {
-            padding-top: 20px;
-        }
-
+    .schedule-event,
+    .speakers-name {
+        font-size: 30px;
+        padding-top: 30px;
 
     }
 
-    /*  ================== CUSTOM STYLES 720px ================== */
-
-
-    @media (min-width:860px) {
-
-
-        body {
-            margin-left: 8%;
-            margin-right: 8%;
-            font-size: 20px;
-            line-height: 30px;
-        }
-
-        h2 {
-            font-size: 40px;
-            padding-top: 40px;
-        }
-
-        ul {
-            left: 13%;
-        }
-
-        .schedule-event,
-        .speakers-name {
-            font-size: 30px;
-            padding-top: 30px;
-
-        }
-
-        .navigation-sst {
-            left: -18%;
-        }
-
+    .navigation-sst {
+        left: -18%;
     }
+
+
+}
