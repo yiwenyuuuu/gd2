@@ -79,7 +79,7 @@ input {
 }
 
 li {
-    font-size: 14px;
+    font-size: 12px;
     display: inline-block;
     margin-top: 10px;
     text-transform: uppercase;
@@ -345,26 +345,7 @@ ul {
 
 /*  ================== CUSTOM STYLES 375px ================== */
 
-
-@media (min-width:834px) {
-
-    h1 {
-        font-size: 100px;
-        line-height: 80px;
-        padding-bottom: 50px;
-    }
-
-    h3 {
-        font-size: 50px;
-        line-height: 50px;
-        margin-top: 0;
-        margin-bottom: 10px;
-        padding-bottom: 5px;
-    }
-
-    li {
-        font-size: 18px;
-    }
+@media (min-width:650px) {
 
     ul {
         width: 90%;
@@ -375,27 +356,6 @@ ul {
         position: relative;
         text-align: left;
         top: 10px;
-    }
-
-    .conference-photo {
-        padding-top: 60px;
-    }
-
-    .jared,
-    .jake,
-    .kate {
-        display: inline-block;
-        width: 47%;
-        vertical-align: top;
-    }
-
-    .jared,
-    .kate {
-        margin-right: 30px;
-    }
-
-    .jake-photo {
-        padding-top: 20px;
     }
 
     .navigation-sst {
@@ -413,18 +373,82 @@ ul {
 
 }
 
-/*  ================== CUSTOM STYLES 800px ================== */
+/*  ================== CUSTOM STYLES 650px ================== */
 
+@media (min-width:720px) {
 
-@media (min-width:1024px) {
-
-
-    body {
-        max-width: 1000px;
+    h1 {
+        font-size: 100px;
+        line-height: 80px;
+        padding-bottom: 50px;
     }
 
-    ul {
-        max-width: 900px;
+    h3 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
     }
 
-}
+    li {
+        font-size: 14px;
+
+        .conference-photo {
+            padding-top: 60px;
+        }
+
+        .jared,
+        .jake,
+        .kate {
+            display: inline-block;
+            width: 45%;
+            vertical-align: top;
+        }
+
+        .jared,
+        .kate {
+            margin-right: 8%;
+        }
+
+        .jake-photo {
+            padding-top: 20px;
+        }
+
+
+    }
+
+    /*  ================== CUSTOM STYLES 720px ================== */
+
+
+    @media (min-width:860px) {
+
+
+        body {
+            margin-left: 8%;
+            margin-right: 8%;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        h2 {
+            font-size: 40px;
+            padding-top: 40px;
+        }
+
+        ul {
+            left: 13%;
+        }
+
+        .schedule-event,
+        .speakers-name {
+            font-size: 30px;
+            padding-top: 30px;
+
+        }
+
+        .navigation-sst {
+            left: -18%;
+        }
+
+    }
