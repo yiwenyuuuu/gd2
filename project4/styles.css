@@ -97,7 +97,7 @@ li a {
 }
 
 li a:hover {
-    color: var(--color-lightgreen);
+    color: var(--color-darkgreen);
     border-bottom-color: transparent;
 }
 
