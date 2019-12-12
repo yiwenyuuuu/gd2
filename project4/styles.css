@@ -1,5 +1,4 @@
 :root {
-    --color-pink: #ffb6b6;
     --color-lightgreen: #d9ef81;
     --color-darkgreen: #b5d43c;
     --color-offblack: #312d2f;
@@ -288,17 +287,6 @@ ul {
     margin: auto;
 }
 
-/*
-.navigation-sst {
-    display: block;
-}
-
-.navigation-name {
-    margin-left: 0;
-    padding-left: 0;
-}
-*/
-
 .register {
     text-align: center;
 }
@@ -358,7 +346,40 @@ ul {
 /*  ================== CUSTOM STYLES 375px ================== */
 
 
-@media (min-width:800px) {
+@media (min-width:834px) {
+
+    h1 {
+        font-size: 100px;
+        line-height: 80px;
+        padding-bottom: 50px;
+    }
+
+    h3 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    ul {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        margin: 0;
+        padding-left: 0;
+        position: relative;
+        text-align: left;
+        top: 10px;
+    }
+
+    .conference-photo {
+        padding-top: 60px;
+    }
 
     .jared,
     .jake,
@@ -377,22 +398,6 @@ ul {
         padding-top: 20px;
     }
 
-    nav {
-        float: right;
-    }
-
-
-    ul {
-        width: 90%;
-        left: 5%;
-        right: 5%;
-        margin: 0;
-        padding-left: 0;
-        position: relative;
-        text-align: left;
-        top: 10px;
-    }
-
     .navigation-sst {
         float: right;
         position: relative;
@@ -406,24 +411,20 @@ ul {
         left: 10px;
     }
 
-
-
 }
 
 /*  ================== CUSTOM STYLES 800px ================== */
 
 
-@media (min-width:1000px) {
+@media (min-width:1024px) {
 
 
     body {
         max-width: 1000px;
-        margin: auto;
     }
 
     ul {
         max-width: 900px;
     }
-
 
 }
