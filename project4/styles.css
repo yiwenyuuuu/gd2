@@ -1,0 +1,490 @@
+:root {
+    --color-lightgreen: #d9ef81;
+    --color-darkgreen: #b5d43c;
+    --color-offblack: #312d2f;
+    --color-offwhite: #f7f7f7;
+}
+
+/*  ================== COLOR PALETTE ==================*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-offblack);
+    background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
+    color: var(--color-offwhite);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 5%;
+}
+
+footer {
+    background-color: inherit;
+    background-image: inherit;
+    opacity: 60%;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+h1 {
+    font-size: 60px;
+    height: 20px;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+h1:hover {
+    color: var(--color-lightgreen);
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-lightgreen);
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+h3:hover {
+    color: var(--color-darkgreen);
+}
+
+h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+input {
+    font-family: inherit;
+    font-size: 18px;
+    resize: horizontal;
+    resize: vertical;
+    height: 40px;
+    width: 320px;
+}
+
+li {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+li+li {
+    margin-left: 49px;
+}
+
+li a {
+    color: var(--color-offwhite);
+    text-decoration: none;
+    padding: 2px;
+    border-bottom: 1.5px solid var(--color-offwhite);
+}
+
+li a:hover {
+    color: var(--color-darkgreen);
+    border-bottom-color: transparent;
+}
+
+nav {
+    -webkit-filter: drop-shadow(4px 4px 4px black);
+    filter: drop-shadow(4px 4px 4px black);
+    background-color: var(--color-offblack);
+    background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
+    height: 90px;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+span {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    position: relative;
+    top: 10px;
+}
+
+/*  ================== GLOBAL SETTINGS ================== */
+
+.button {
+    background: var(--color-offwhite);
+    border: 5px solid var(--color-offwhite);
+    color: var(--color-offblack);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    margin: auto;
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: var(--color-lightgreen);
+    border: 5px solid var(--color-lightgreen);
+    color: var(--color-offblack);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    margin: auto;
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:active {
+    background: inherit;
+    border: 5px solid var(--color-lightgreen);
+    color: var(--color-lightgreen);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    height: 70px;
+    margin: auto;
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-register {
+    color: var(--color-offwhite);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-register:hover {
+    color: var(--color-offwhite);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.button-register:active {
+    color: var(--color-lightgreen);
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.conference-photo {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.conference-photo:hover {
+    filter: grayscale(0);
+    opacity: 0.6;
+}
+
+
+.day2 {
+    padding-top: 20px;
+}
+
+.email {
+    text-align: center;
+}
+
+.jared-photo,
+.jake-photo,
+.kate-photo {
+    -webkit-filter: drop-shadow(8px 8px 10px black);
+    filter: drop-shadow(8px 8px 10px black);
+    opacity: 0.7;
+    width: 280px;
+    padding-top: 20px;
+}
+
+.jared-photo {
+    padding-top: 20px;
+}
+
+.jake-photo,
+.kate-photo {
+    padding-top: 40px;
+}
+
+.navigation-sst {
+    margin: auto;
+    padding-left: 0;
+}
+
+.navigation-name {
+    margin: auto;
+}
+
+.register {
+    text-align: center;
+}
+
+.speakers {
+    padding-top: 70px;
+}
+
+.schedule,
+.tickets {
+    color: var(--color-lightgreen);
+    padding-top: 70px;
+}
+
+.speakers-name {
+    padding-top: 20px;
+}
+
+.schedule-event,
+.speakers-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.schedule-time {
+    font-weight: 500;
+    margin: 5px 0;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.schedule-time2 {
+    padding-top: 0;
+}
+
+.schedule-intro {
+    padding-top: 10px;
+    margin: 0;
+}
+
+.tickets {
+    padding-bottom: 50px;
+}
+
+.tickets-content {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tickets-question {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tickets-money {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/*  ================== CUSTOM STYLES 375px ================== */
+
+@media (min-width:650px) {
+
+    ul {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        margin: 0;
+        padding-left: 0;
+        position: relative;
+        text-align: left;
+        top: 10px;
+    }
+
+    .navigation-sst {
+        float: right;
+        position: relative;
+        top: 8px;
+        left: -5px;
+    }
+
+    .navigation-name {
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+
+}
+
+/*  ================== CUSTOM STYLES 650px ================== */
+
+@media (min-width:720px) {
+
+
+    h1 {
+        font-size: 100px;
+        line-height: 80px;
+        padding-bottom: 50px;
+    }
+
+    h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .conference-photo {
+        padding-top: 60px;
+    }
+
+    .jared,
+    .jake,
+    .kate {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+
+    .jared,
+    .kate {
+        margin-right: 8%;
+    }
+
+    .jake-photo {
+        padding-top: 20px;
+    }
+
+
+}
+
+/*  ================== CUSTOM STYLES 720px ================== */
+
+
+@media (min-width:860px) {
+
+    body {
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    ul {
+        left: 13%;
+    }
+
+    .schedule-event {
+        font-size: 24px;
+    }
+
+    .schedule-time {
+        padding-top: 30px;
+    }
+
+    .schedule-time2 {
+        padding-top: 0;
+    }
+
+    .schedule-intro {
+        margin-top: 10px;
+        margin: 0;
+    }
+
+    .speakers-name {
+        font-size: 30px;
+        padding-top: 30px;
+
+    }
+
+    .schedule-box {
+        width: 70%;
+        position: relative;
+        left: 30%;
+        top: -30px;
+    }
+
+    .schedule-box2 {
+        top: -60px;
+    }
+
+    .navigation-sst {
+        left: -18%;
+    }
+
+
+}
